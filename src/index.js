@@ -9,7 +9,7 @@ import "./index.scss";
 const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
-      padding: '4rem'
+      margin: '4rem'
     },
     grid: {
       padding: theme.spacing(2),

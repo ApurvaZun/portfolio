@@ -18,7 +18,10 @@ const UserInfo = () => {
             <h1>{user[0].User}</h1>
             <p>{user[0].Description}</p>
             <div className="social-info">
-                <Avatar alt="Remy Sharp" src={avatarImg} />
+                <div className="avatar-box">
+                    <Avatar alt="Apurva Zunzunwala" src={avatarImg} />
+                </div>
+                
                 <ul>
                     <li>
                         <a href="https://sarahdayan.dev/" rel="noreferrer" target="_blank" className="item-social-icon">

@@ -10,6 +10,9 @@
     .social-info{
         padding-top: 1rem;
         display: flex;
+        .avatar-box{
+            margin-top: 10px;
+        }
         ul{
             list-style-type: none;
             display: flex;
