@@ -29,7 +29,7 @@ const ProjectCard = () => {
     const classes = useStyles();
 
     return(
-        <div>
+        <div className="project-box">
             {
                 user[0].Project.map((project, index) => {
                     return(
