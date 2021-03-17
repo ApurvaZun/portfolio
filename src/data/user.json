@@ -5,7 +5,25 @@
         "ProjectName":"portfolio",
         "ProjectLanguage":"Reactjs",
         "ProjectDescription":"Details about myself and the projects created",
-        "ProjectUrl":"https://jfbgjbfdjg.in"
+        "ProjectUrl":"https://github.com/ApurvaZun/portfolio"
+    },
+    {
+        "ProjectName":"UserGroupSearch",
+        "ProjectLanguage":"Reactjs",
+        "ProjectDescription":"Display users in group with search functionality",
+        "ProjectUrl":"https://github.com/ApurvaZun/UserGroupSearch"
+    },
+    {
+        "ProjectName":"MoviesApp",
+        "ProjectLanguage":"Reactjs, Node.js",
+        "ProjectDescription":"API's to do DML operations with dashboard in react.js",
+        "ProjectUrl":"https://github.com/ApurvaZun/moviesApp"
+    },
+    {
+        "ProjectName":"ColorGame",
+        "ProjectLanguage":"Javascript",
+        "ProjectDescription":"This is the game to guess the color in limited tries",
+        "ProjectUrl":"https://github.com/ApurvaZun/ColorGame"
     }
 ]
 }]

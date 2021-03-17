@@ -4,6 +4,8 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import { makeStyles } from '@material-ui/core/styles';
 
+const user = require("../data/user.json");
+
 const useStyles = makeStyles({
     link: {
         textDecoration: 'none'
@@ -12,7 +14,8 @@ const useStyles = makeStyles({
         color: '#949495',
         backgroundColor: '#151414',
         paddingLeft: '18px',
-        paddingRight: '18px'
+        paddingRight: '18px',
+        marginBottom: '10px'
     },
     headerStyle:{
         marginTop: '8px',
@@ -27,15 +30,23 @@ const ProjectCard = () => {
 
     return(
         <div>
-            <Link href="https://material-ui.com/components/links/" className={classes.link}>
-                <Card className={classes.card}>
-                    <CardContent>
-                        <p>Reactjs</p>
-                        <h3 className={classes.headerStyle}>LinkedIn</h3>
-                        <p>Description</p>
-                    </CardContent>
-                </Card>  
-            </Link>
+            {
+                user[0].Project.map((project, index) => {
+                    return(
+                        <Link key={index} href={project.ProjectUrl} target="_blank" className={classes.link}>
+                        <Card className={classes.card}>
+                            <CardContent>
+                                
+                                <p>{project.ProjectLanguage}</p>
+                                <h3 className={classes.headerStyle}>{project.ProjectName}</h3>
+                                <p>{project.ProjectDescription}</p>
+                            </CardContent>
+                        </Card>  
+                    </Link>           
+                    )
+                })
+            }
+            
                       
         </div>
     )
