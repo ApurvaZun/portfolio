@@ -4,6 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
 
 import UserInfo from "./components/userInfo";
+import ProjectCard from "./components/projectCard";
 import "./index.scss";
 
 const useStyles = makeStyles((theme) => ({
@@ -11,10 +12,10 @@ const useStyles = makeStyles((theme) => ({
       flexGrow: 1,
       margin: '4rem'
     },
-    grid: {
+    user: {
       padding: theme.spacing(2),
       textAlign: 'center',
-    },
+    }
   }));
 
 const App = () => {
@@ -25,10 +26,10 @@ const App = () => {
         <div className={classes.root}>
             <Grid container spacing={1}>
                 <Grid item xs={6} className="user-info">
-                    <UserInfo className={classes.grid}/>
+                    <UserInfo className={classes.user}/>
                 </Grid>
                 <Grid item xs={6}>
-                    block 2
+                    <ProjectCard />
                 </Grid>
             </Grid>
         </div>

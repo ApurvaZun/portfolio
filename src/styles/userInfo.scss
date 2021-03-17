@@ -1,6 +1,7 @@
 @import "./variable.scss";
 
 .user-info {
+    padding-right: 4rem !important;    
     h1{
         color: $primary-font-color;
     }
