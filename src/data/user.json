@@ -2,26 +2,26 @@
 "Description":"I am a frontend developer with 2 years of experience in frontend development and currently looking for new opportunities",
 "Project":[
     {
-        "ProjectName":"portfolio",
-        "ProjectLanguage":"Reactjs",
+        "ProjectName":"Portfolio",
+        "ProjectLanguage":"REACTJS",
         "ProjectDescription":"Details about myself and the projects created",
         "ProjectUrl":"https://github.com/ApurvaZun/portfolio"
     },
     {
         "ProjectName":"UserGroupSearch",
-        "ProjectLanguage":"Reactjs",
+        "ProjectLanguage":"REACTJS",
         "ProjectDescription":"Display users in group with search functionality",
         "ProjectUrl":"https://github.com/ApurvaZun/UserGroupSearch"
     },
     {
         "ProjectName":"MoviesApp",
-        "ProjectLanguage":"Reactjs, Node.js",
+        "ProjectLanguage":"REACTJS, NODEJS",
         "ProjectDescription":"API's to do DML operations with dashboard in react.js",
         "ProjectUrl":"https://github.com/ApurvaZun/moviesApp"
     },
     {
         "ProjectName":"ColorGame",
-        "ProjectLanguage":"Javascript",
+        "ProjectLanguage":"JAVASCRIPT",
         "ProjectDescription":"This is the game to guess the color in limited tries",
         "ProjectUrl":"https://github.com/ApurvaZun/ColorGame"
     }

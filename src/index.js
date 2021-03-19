@@ -8,10 +8,10 @@ import ProjectCard from "./components/projectCard";
 import "./index.scss";
 
 const useStyles = makeStyles((theme) => ({
-    root: {
-      flexGrow: 1,
-      margin: '4rem'
-    },
+    // root: {
+    //   flexGrow: 1,
+    //   margin: '4rem'
+    // },
     user: {
       padding: theme.spacing(2),
       textAlign: 'center',
@@ -23,12 +23,12 @@ const App = () => {
     const classes = useStyles();
 
     return (
-        <div className={classes.root}>
+        <div className="main-container">
             <Grid container spacing={1}>
-                <Grid item xs={6} className="user-info">
+                <Grid item sm={6} xs={12} className="user-info">
                     <UserInfo className={classes.user}/>
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item sm={6} xs={12}>
                     <ProjectCard />
                 </Grid>
             </Grid>

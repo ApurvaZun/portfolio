@@ -15,7 +15,12 @@ const useStyles = makeStyles({
         backgroundColor: '#151414',
         paddingLeft: '18px',
         paddingRight: '18px',
-        marginBottom: '10px'
+        marginBottom: '10px',
+        opacity: '1',
+        transition: 'all 0.2s ease-in-out',
+        "&:hover":{
+            transform: 'scale(1.1)'
+        }   
     },
     headerStyle:{
         marginTop: '8px',

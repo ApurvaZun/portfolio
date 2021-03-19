@@ -6,18 +6,10 @@ import Avatar from '@material-ui/core/Avatar';
 
 import "../styles/userInfo.scss";
 import avatarImg from "../assets/prof_photo.jpg";
-import base64URL from "../assets/Apurva_Zunzunwala_Resume.pdf";
-
 
 const user = require("../data/user.json");
 
 const UserInfo = () => {
-
-    function debugBase64(){
-        const win = window.open();
-        win.document.write(`<iframe src="${  base64URL   }" frameborder="0" style="border:0; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%;" allowfullscreen></iframe>`);
-    }
-    
    
     return(
         <div>
@@ -26,9 +18,6 @@ const UserInfo = () => {
             <div className="social-info">
                 <div className="avatar-box">
                     <Avatar alt="Apurva Zunzunwala" src={avatarImg} />
-                </div>
-                <div className="download-resume">
-                    <button onClick={debugBase64}>dnfsd</button>
                 </div>
                 <ul>
                     <li>
