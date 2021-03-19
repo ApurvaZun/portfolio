@@ -14,7 +14,7 @@ module.exports = {
         use: ["babel-loader",  "eslint-loader"]
       },
       {
-        test: /\.(jpg|png)$/,
+        test: /\.(jpg|png|pdf)$/,
         use: {
           loader: 'url-loader',
         },
@@ -25,5 +25,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "src", "index.html")
     })
+    
   ]
 };
