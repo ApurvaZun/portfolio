@@ -21,14 +21,14 @@ const UserInfo = () => {
                 </div>
                 <ul>
                     <li>
-                        <a href="https://sarahdayan.dev/" rel="noreferrer" target="_blank" className="item-social-icon">
+                        <a href="https://www.linkedin.com/in/apurva-zunzunwala-b31681120/" rel="noreferrer" target="_blank" className="item-social-icon">
                         <LinkedInIcon fontSize="small" />
                         <span>LinkedIn</span>
                         <OpenInNewIcon fontSize="small" />
                         </a>
                     </li>
                     <li>
-                        <a href="https://sarahdayan.dev/" rel="noreferrer" target="_blank" className="item-social-icon">
+                        <a href="https://github.com/ApurvaZun" rel="noreferrer" target="_blank" className="item-social-icon">
                         <GitHubIcon fontSize="small" />
                         <span>GitHub</span>
                         <OpenInNewIcon fontSize="small" />

@@ -15,11 +15,15 @@ body {
 .project-box{
   overflow-y: scroll;
   height: 700px;
-  width: 95%;
+  width: 92%;
 }
 
 @media only screen and (max-width: 600px) {
   .main-container{
     margin: 1.5rem;
   }
+  .project-box{
+    overflow-y:hidden;
+  }
+
 }
