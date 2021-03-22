@@ -8,7 +8,7 @@ const user = require("../data/user.json");
 
 const useStyles = makeStyles({
     link: {
-        textDecoration: 'none'
+        textDecoration: 'none !important'
     },
     card: {
         color: '#949495',
@@ -36,15 +36,17 @@ const ProjectCard = () => {
     return(
         <div className="project-box">
             {
-                user[0].Project.map((project, index) => {
+                user[0].Project.map((project) => {
                     return(
-                        <Link key={index} href={project.ProjectUrl} target="_blank" className={classes.link}>
+                        <Link key={user.ProjectId} href={project.ProjectUrl} target="_blank" className={classes.link}>
+                        
                         <Card className={classes.card}>
                             <CardContent>
                                 
                                 <p>{project.ProjectLanguage}</p>
                                 <h3 className={classes.headerStyle}>{project.ProjectName}</h3>
                                 <p>{project.ProjectDescription}</p>
+                                
                             </CardContent>
                         </Card>  
                     </Link>           

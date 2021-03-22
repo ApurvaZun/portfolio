@@ -1,25 +1,31 @@
 [{"User":"Hello, I'm Apurva Zunzunwala",
 "Description":"I am a frontend developer with 2 years of experience in frontend development and currently looking for new opportunities",
+"LinkediURL":"https://www.linkedin.com/in/apurva-zunzunwala-b31681120/",
+"GithubURL":"https://github.com/ApurvaZun",
 "Project":[
     {
+        "ProjectId":"1",
         "ProjectName":"Portfolio",
         "ProjectLanguage":"REACTJS",
         "ProjectDescription":"Details about myself and the projects created",
         "ProjectUrl":"https://github.com/ApurvaZun/portfolio"
     },
     {
+        "ProjectId":"2",
         "ProjectName":"UserGroupSearch",
         "ProjectLanguage":"REACTJS",
         "ProjectDescription":"Display users in group with search functionality",
         "ProjectUrl":"https://github.com/ApurvaZun/UserGroupSearch"
     },
     {
+        "ProjectId":"3",
         "ProjectName":"MoviesApp",
         "ProjectLanguage":"REACTJS, NODEJS",
         "ProjectDescription":"API's to do DML operations with dashboard in react.js",
         "ProjectUrl":"https://github.com/ApurvaZun/moviesApp"
     },
     {
+        "ProjectId":"4",
         "ProjectName":"ColorGame",
         "ProjectLanguage":"JAVASCRIPT",
         "ProjectDescription":"This is the game to guess the color in limited tries",

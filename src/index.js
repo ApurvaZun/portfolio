@@ -8,10 +8,6 @@ import ProjectCard from "./components/projectCard";
 import "./index.scss";
 
 const useStyles = makeStyles((theme) => ({
-    // root: {
-    //   flexGrow: 1,
-    //   margin: '4rem'
-    // },
     user: {
       padding: theme.spacing(2),
       textAlign: 'center',
